@@ -198,10 +198,12 @@ h1 {
   font-weight: 700;
   line-height: 125%;
   white-space: nowrap;
+
   a {
     position: relative;
     display: inline-block;
     color: #59443f;
+
     &::before {
       content: "";
       position: absolute;
@@ -213,6 +215,7 @@ h1 {
       border: 1px solid #c3b9b5;
       background-color: #c3b9b5;
     }
+
     &:hover {
       &::before {
         width: 100%;
@@ -430,7 +433,7 @@ h1 {
       color: #fffefe;
 
       &a:hover {
-        background-color: #59443f;
+        color: #59443f;
       }
     }
   }

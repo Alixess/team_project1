@@ -387,7 +387,7 @@ h1 {
     color: #fffefe;
   }
   .nav__linka:hover {
-    background-color: #59443f;
+    color: #59443f;
   }
   .hamb {
     cursor: pointer;
